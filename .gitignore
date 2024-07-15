@@ -1,0 +1,6 @@
+*.id[012]
+*.nam
+*.til
+*.dmp
+schematic/*.lck
+schematic/#auto_saved_files#

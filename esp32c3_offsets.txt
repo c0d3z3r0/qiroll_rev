@@ -1,0 +1,14 @@
+0000 0000 - 0000 30ef	bootloader
+0000 8000 - 0000 80bf	parttable
+0000 9000 - 0000 dfff	nvs (empty)
+0000 e000 - 0000 ffff	otadata
+0001 0000 - 0004 8e9f	app0
+0005 0000 - 0005 00ff	?
+0015 0000 - 0028 ffff	app1 (empty)
+0029 0000 - 003f ffff	spiffs (empty)
+
+32768         0x8000          ESP32 Partition Table Entry: label: "nvs", type: DATA, subtype: NVS, offset: 0x9000, size: 0x5000, flags: 0x0 (not encrypted)
+32800         0x8020          ESP32 Partition Table Entry: label: "otadata", type: DATA, subtype: Factory/OTA DATA, offset: 0xe000, size: 0x2000, flags: 0x0 (not encrypted)
+32832         0x8040          ESP32 Partition Table Entry: label: "app0", type: APP, subtype: OTA 0, offset: 0x10000, size: 0x140000, flags: 0x0 (not encrypted)
+32864         0x8060          ESP32 Partition Table Entry: label: "app1", type: APP, subtype: OTA 1, offset: 0x150000, size: 0x140000, flags: 0x0 (not encrypted)
+32896         0x8080          ESP32 Partition Table Entry: label: "spiffs", type: DATA, subtype: SPIFFS, offset: 0x290000, size: 0x170000, flags: 0x0 (not encrypted)
