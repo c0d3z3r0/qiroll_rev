@@ -12308,7 +12308,7 @@
 		)
 		(uuid "23c31b9a-8d3f-4fb5-94dc-10c64a71a297")
 	)
-	(label "ESP_G1"
+	(label "SW_START"
 		(at 166.37 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12374,7 +12374,7 @@
 		)
 		(uuid "34ee49c6-f25b-4242-969e-31c0365f6045")
 	)
-	(label "ESP_G3"
+	(label "SW_MODE"
 		(at 166.37 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12429,7 +12429,7 @@
 		)
 		(uuid "3ccbcbd8-b0c5-400b-817d-dc34b8237025")
 	)
-	(label "SW_START"
+	(label "ESP_G0"
 		(at 260.35 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12561,7 +12561,7 @@
 		)
 		(uuid "637c290a-a958-4c7c-87b9-07e18d68ef58")
 	)
-	(label "USB_ID"
+	(label "SW_START"
 		(at 260.35 119.38 180)
 		(fields_autoplaced yes)
 		(effects
