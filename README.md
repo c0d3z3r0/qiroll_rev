@@ -35,7 +35,7 @@ The image contains an EEPROM section with settings. I need to find a way to conv
 
 - Motor
   - BLDC motor in a tube with ball-bearing on both sides
-  - Motor attached on bearings' inner rings; outer tube probably run through a planetary gearbox
+  - Motor attached on bearings' inner rings; probably outrunner motor
   - No way to disassemble without damage (bearings pressed-in, maybe glued)
   - no hall sensors
 
