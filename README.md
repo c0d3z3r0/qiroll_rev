@@ -10,7 +10,11 @@ I didn't expect them to place components and vias 1 mm to the edge but... the bo
 With a tiny flathead screwdriver and a hammer I chiseled off the epoxy. Of course various components got ripped off including some traces.
 The crucial parts are still there and some parts (diodes, caps, resistors) can be guessed.
 
-I will try to repair the board. Let's see...
+I will try to repair the board. Let's see... **Update:** I was able to repair it :-) ... and now it talks via USB to VESC Tool:
+
+![Qiroll connected to VESC Tool](images/vesctool.png)
+
+Of course all the settings the Qiroll guys set are completely wrong and thus, the measurements don't make any sense.
 
 **Firmware:**
 Checking Github for some of the strings I found out they use VESC from the [VESC Project][VESCProject] (GH: https://github.com/vedderb/bldc)
