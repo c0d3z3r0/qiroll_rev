@@ -67,6 +67,10 @@ The image contains an EEPROM section with settings. I need to find a way to conv
   - ESP-IDF v4.4-beta1, commit a79dc75f0a -> https://github.com/espressif/esp-idf/commit/a79dc75f0a91f4b558dcefb7ae5096c71c63e2e9
   - heads/idf-release/v4.4-0-gd6934 not public? maybe modified https://github.com/espressif/arduino-esp32
   - arduino-lib-builder
+  - https://github.com/engineerthenet/ArduinoVESC
+  - dummy firmware based on (mostly) correct commits for IDA+BinDiff in [dummy_firmware](/dummy_firmware)
+  - Ghidra project containing current RE status (see functions `setup` and `loop`)
+  - couldn't get Ghidra's FID matchin work correctly, but IDA+BinDiff (xml export -> IDA+BinDiff -> xml reimport) helped a lot
 
 - APM32/STM32 Firmware
   - String `org.vesc.410-QR` -> VESC HW410, "QR" (Qiroll) version, [VESC Project][VESCProject]

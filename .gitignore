@@ -2,5 +2,6 @@
 *.nam
 *.til
 *.dmp
+*.lock
 schematic/*.lck
 schematic/#auto_saved_files#
